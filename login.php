@@ -5,7 +5,7 @@ require_once "db.php";
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
-    header("Location: login.html");
+    header("Location: index.html");
     exit();
 }
 
